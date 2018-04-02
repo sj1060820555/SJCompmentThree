@@ -1,0 +1,6 @@
+framework module SJCompmentThreeLib {
+  umbrella header "SJCompmentThreeLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

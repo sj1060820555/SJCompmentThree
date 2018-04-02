@@ -1,0 +1,6 @@
+framework module Pods_SJCompmentThreeLib_Example {
+  umbrella header "Pods-SJCompmentThreeLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
