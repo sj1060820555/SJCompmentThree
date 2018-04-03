@@ -10,4 +10,5 @@
 @interface SJBaseView : UIView
 -(void)changeColor;
 -(void)changeColor2;
+-(void)bigger:(CGFloat)bigger;
 @end

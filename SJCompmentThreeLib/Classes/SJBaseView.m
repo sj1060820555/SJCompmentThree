@@ -25,6 +25,12 @@
 -(void)changeColor2{
     self.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
 }
+
+-(void)bigger:(CGFloat)bigger{
+    self.transform = CGAffineTransformMakeScale(bigger, bigger);
+}
+
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
