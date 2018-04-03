@@ -6,7 +6,7 @@
 //
 
 #import "ViewOne.h"
-
+//#import <Masonry/Masonry.h>
 @implementation ViewOne
 
 
@@ -14,6 +14,14 @@
 -(instancetype)init{
     self = [super init];
     if (self) {
+        
+        UIView *view = [[UIView alloc]init];
+        view.backgroundColor = [UIColor redColor];
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+            
+        }];
+        
+        
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(changeColor2)];
         [self addGestureRecognizer:tap];
     }
@@ -23,6 +31,10 @@
 
 -(void)changeColor{
     self.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
+    
+    
+    
+    
 }
 
 -(void)changeColor2{
