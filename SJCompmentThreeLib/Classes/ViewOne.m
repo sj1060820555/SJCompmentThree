@@ -15,13 +15,13 @@
     self = [super init];
     if (self) {
         
-        UIView *view = [[UIView alloc]init];
-        view.backgroundColor = [UIColor redColor];
-        [self addSubview:view];
-        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.edges.mas_equalTo(self).mas_offset(UIEdgeInsetsMake(2, 2, 2, 2));
-        }];
-        
+//        UIView *view = [[UIView alloc]init];
+//        view.backgroundColor = [UIColor redColor];
+//        [self addSubview:view];
+//        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.edges.mas_equalTo(self).mas_offset(UIEdgeInsetsMake(2, 2, 2, 2));
+//        }];
+//        
         
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(changeColor2)];
         [self addGestureRecognizer:tap];
