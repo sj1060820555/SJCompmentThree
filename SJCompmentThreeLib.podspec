@@ -43,10 +43,12 @@ TODO: Add long description of the pod here.
  }
 
  s.public_header_files = 'SJCompmentThreeLib/Classes/**/*.h'
+ #所需的framework，多个用逗号隔开
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'Masonry'
-    s.dependency  'FMDB'
-    s.dependency  'MJRefresh'
+ #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+    s.dependency  'Masonry' , '~> 1.1.0'
+    s.dependency  'FMDB', ' ~> 2.7.2'
+    s.dependency  'MJRefresh','~>3.1.15.1'
 
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking' , '~> 2.3'
 end
