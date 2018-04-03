@@ -19,9 +19,9 @@
         UIView  *view = [[UIView alloc]init];
         view.backgroundColor = [UIColor redColor];
         [self addSubview:view];
-//        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-//            make.edges.mas_equalTo(self).mas_offset(UIEdgeInsetsMake(3, 3, 3, 3));
-//        }];
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.mas_equalTo(self).mas_offset(UIEdgeInsetsMake(3, 3, 3, 3));
+        }];
         
     }
     return self;
