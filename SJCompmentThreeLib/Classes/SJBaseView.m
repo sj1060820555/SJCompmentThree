@@ -18,10 +18,8 @@
     return self;
 }
 
-
--(void)changeClolr{
-    self.backgroundColor = [UIColor colorWithRed:arc4random()%255/255 green:arc4random()%255/255 blue:arc4random()%255/255 alpha:1];
-    
+-(void)changeColor{
+    self.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
 }
 
 
