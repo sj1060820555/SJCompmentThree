@@ -46,6 +46,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'Masonry'
     s.dependency  'FMDB'
+    s.dependency  'MJRefresh'
 
   # s.dependency 'AFNetworking', '~> 2.3'
 end
