@@ -1,9 +1,9 @@
 {
   "name": "SJCompmentThreeLib",
-  "version": "0.1.0",
-  "summary": "A short description of SJCompmentThreeLib.",
+  "version": "0.1.22",
+  "summary": "SJCompmentThreeLib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sj1060820555@163.com/SJCompmentThreeLib",
+  "homepage": "https://gitee.com/wsj31421/SJCompmentThreeL.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,25 @@
     "sj1060820555@163.com": "sj1060820555@163.com"
   },
   "source": {
-    "git": "https://github.com/sj1060820555@163.com/SJCompmentThreeLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sj1060820555/SJCompmentThree.git",
+    "tag": "0.1.22"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SJCompmentThreeLib/Classes/**/*"
+  "source_files": "SJCompmentThreeLib/Classes/**/*",
+  "resource_bundles": {
+    "SJCompmentThreeLib": [
+      "SJCompmentThreeLib/Assets/*.png"
+    ]
+  },
+  "public_header_files": "SJCompmentThreeLib/Classes/**/*.h",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "FMDB": [
+      " ~> 2.7.2"
+    ]
+  }
 }

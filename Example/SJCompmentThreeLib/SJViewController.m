@@ -7,6 +7,7 @@
 //
 
 #import "SJViewController.h"
+#import <Masonry/Masonry.h>
 
 @interface SJViewController ()
 

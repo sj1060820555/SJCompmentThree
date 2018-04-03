@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "SJBaseView.h"
+#import "SJCompmentThreeHeader.h"
+#import "ViewOne.h"
 
 FOUNDATION_EXPORT double SJCompmentThreeLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char SJCompmentThreeLibVersionString[];

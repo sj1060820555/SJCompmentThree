@@ -9,13 +9,20 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - SJCompmentThreeLib (0.1.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Masonry (1.1.0)
+  - SJCompmentThreeLib (0.1.22):
+    - FMDB (~> 2.7.2)
+    - Masonry (~> 1.1.0)
   - Specta (1.0.7)
 
 DEPENDENCIES:
   - Expecta
   - Expecta+Snapshots
   - FBSnapshotTestCase
+  - Masonry
   - SJCompmentThreeLib (from `../`)
   - Specta
 
@@ -27,9 +34,11 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  SJCompmentThreeLib: 5c592d39a60f4f72af0ae2d19b93458d12161d12
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SJCompmentThreeLib: 68fb5425244993ff1bd2047333b920eebbbc568e
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: dc81e4174ead7c9d6530e133043c74a97f0036f8
+PODFILE CHECKSUM: ecd0fb4d97a2143fa31ca68fbb622865b8774f1c
 
 COCOAPODS: 1.3.1
