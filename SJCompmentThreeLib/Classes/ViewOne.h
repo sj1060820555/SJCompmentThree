@@ -8,5 +8,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewOne : UIView
-
+-(void)changeClolr;
 @end

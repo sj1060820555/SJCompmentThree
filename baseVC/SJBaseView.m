@@ -10,6 +10,16 @@
 @implementation SJBaseView
 
 
+-(instancetype)init{
+    self = [super init];
+    if (self) {
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(changeClolr)];
+        [self addGestureRecognizer:tap];
+    }
+    return self;
+}
+
+
 -(void)changeClolr{
     self.backgroundColor = [UIColor colorWithRed:arc4random()%255/255 green:arc4random()%255/255 blue:arc4random()%255/255 alpha:1];
 }

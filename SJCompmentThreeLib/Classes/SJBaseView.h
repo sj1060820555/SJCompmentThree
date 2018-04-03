@@ -8,5 +8,5 @@
 #import <UIKit/UIKit.h>
 
 @interface SJBaseView : UIView
-
+-(void)changeClolr;
 @end
