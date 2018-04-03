@@ -44,5 +44,7 @@ TODO: Add long description of the pod here.
 
  s.public_header_files = 'SJCompmentThreeLib/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+    s.dependency 'Masonry'
+
   # s.dependency 'AFNetworking', '~> 2.3'
 end
