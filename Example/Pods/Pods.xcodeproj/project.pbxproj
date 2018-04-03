@@ -61,6 +61,8 @@
 		64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65F7A04E20721EE90079200E /* SJBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F7A04C20721EE90079200E /* SJBaseView.h */; };
 		65F7A04F20721EE90079200E /* SJBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A04D20721EE90079200E /* SJBaseView.m */; };
+		65F7A07F207350E10079200E /* SJBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F7A07D207350E10079200E /* SJBaseView.h */; };
+		65F7A080207350E10079200E /* SJBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A07E207350E10079200E /* SJBaseView.m */; };
 		6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */; };
 		6F1C8C2851E8B7476992360408E05B40 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */; };
@@ -305,6 +307,9 @@
 		65F7A07620732AAA0079200E /* viewThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewThree.m; sourceTree = "<group>"; };
 		65F7A07720732AAA0079200E /* viewTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewTwo.h; sourceTree = "<group>"; };
 		65F7A07820732AAA0079200E /* viewTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTwo.m; sourceTree = "<group>"; };
+		65F7A07D207350E10079200E /* SJBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJBaseView.h; sourceTree = "<group>"; };
+		65F7A07E207350E10079200E /* SJBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJBaseView.m; sourceTree = "<group>"; };
+		65F7A081207351150079200E /* SJCompmentThreeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJCompmentThreeHeader.h; sourceTree = "<group>"; };
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
@@ -613,8 +618,11 @@
 			children = (
 				65F7A06D20732A7F0079200E /* .gitkeep */,
 				65F7A06E20732A7F0079200E /* ReplaceMe.m */,
+				65F7A081207351150079200E /* SJCompmentThreeHeader.h */,
 				65F7A06F20732A7F0079200E /* ViewOne.h */,
 				65F7A07020732A7F0079200E /* ViewOne.m */,
+				65F7A07D207350E10079200E /* SJBaseView.h */,
+				65F7A07E207350E10079200E /* SJBaseView.m */,
 			);
 			name = Classes;
 			path = SJCompmentThreeLib/Classes;
@@ -943,6 +951,7 @@
 				FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
+				65F7A07F207350E10079200E /* SJBaseView.h in Headers */,
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
@@ -1260,6 +1269,7 @@
 				A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */,
 				AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */,
 				65F7A04F20721EE90079200E /* SJBaseView.m in Sources */,
+				65F7A080207350E10079200E /* SJBaseView.m in Sources */,
 				A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
