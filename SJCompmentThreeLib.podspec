@@ -49,7 +49,7 @@ TODO: Add long description of the pod here.
 
     s.dependency  'Masonry' , '~> 1.1.0'
     s.dependency  'FMDB', ' ~> 2.7.2'
-    s.dependency 'AFNetworking' , '~> 2.3'
+    s.dependency 'AFNetworking' , '~> 3.1.0'
 
     #s.dependency  'SDWebImage' , '~> 4.2.3'
     #s.dependency  'MJRefresh','~> 3.1.15.1'
