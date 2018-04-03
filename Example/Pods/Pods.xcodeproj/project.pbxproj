@@ -61,10 +61,6 @@
 		64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28980D1268BF5D8196D266D4FC2F50E4 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65F7A04E20721EE90079200E /* SJBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F7A04C20721EE90079200E /* SJBaseView.h */; };
 		65F7A04F20721EE90079200E /* SJBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A04D20721EE90079200E /* SJBaseView.m */; };
-		65F7A0552072254E0079200E /* ViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A0542072254E0079200E /* ViewOne.m */; };
-		65F7A057207225580079200E /* ViewOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F7A056207225580079200E /* ViewOne.h */; };
-		65F7A05E207225940079200E /* viewTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F7A05C207225940079200E /* viewTwo.h */; };
-		65F7A05F207225940079200E /* viewTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A05D207225940079200E /* viewTwo.m */; };
 		6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7874ECE957DC7F80946CB43F9419C903 /* ExpectaObject+FBSnapshotTest.m */; };
 		6F1C8C2851E8B7476992360408E05B40 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE880572CC4AF9A3FB007D3FBAB3FC9 /* SpectaUtility.m */; };
@@ -298,10 +294,17 @@
 		65F7A04B20721EC70079200E /* SJHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJHeader.h; sourceTree = "<group>"; };
 		65F7A04C20721EE90079200E /* SJBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJBaseView.h; sourceTree = "<group>"; };
 		65F7A04D20721EE90079200E /* SJBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJBaseView.m; sourceTree = "<group>"; };
-		65F7A0542072254E0079200E /* ViewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewOne.m; path = SJCompmentThreeLib/Classes/ViewOne.m; sourceTree = "<group>"; };
-		65F7A056207225580079200E /* ViewOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewOne.h; path = SJCompmentThreeLib/Classes/ViewOne.h; sourceTree = "<group>"; };
-		65F7A05C207225940079200E /* viewTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = viewTwo.h; path = SJCompmentThreeLib/Assets/viewTwo.h; sourceTree = "<group>"; };
-		65F7A05D207225940079200E /* viewTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = viewTwo.m; path = SJCompmentThreeLib/Assets/viewTwo.m; sourceTree = "<group>"; };
+		65F7A06D20732A7F0079200E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		65F7A06E20732A7F0079200E /* ReplaceMe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		65F7A06F20732A7F0079200E /* ViewOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewOne.h; sourceTree = "<group>"; };
+		65F7A07020732A7F0079200E /* ViewOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewOne.m; sourceTree = "<group>"; };
+		65F7A07220732AAA0079200E /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		65F7A07320732AAA0079200E /* add_friend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_friend@2x.png"; sourceTree = "<group>"; };
+		65F7A07420732AAA0079200E /* add_friend@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_friend@3x.png"; sourceTree = "<group>"; };
+		65F7A07520732AAA0079200E /* viewThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewThree.h; sourceTree = "<group>"; };
+		65F7A07620732AAA0079200E /* viewThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewThree.m; sourceTree = "<group>"; };
+		65F7A07720732AAA0079200E /* viewTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewTwo.h; sourceTree = "<group>"; };
+		65F7A07820732AAA0079200E /* viewTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTwo.m; sourceTree = "<group>"; };
 		6732C58C04F8341AD50DE36AEE2EBF41 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		69BE855C76546F434D61EAC92F2988BD /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
@@ -557,12 +560,10 @@
 		2467B1F80F701104F583B7164F028B37 /* SJCompmentThreeLib */ = {
 			isa = PBXGroup;
 			children = (
+				65F7A07120732AAA0079200E /* Assets */,
+				65F7A06C20732A7F0079200E /* Classes */,
 				65F7A04620721E5D0079200E /* baseVC */,
 				01E2BD3B9FDE4FEB72FE2C5C71423445 /* ReplaceMe.m */,
-				65F7A056207225580079200E /* ViewOne.h */,
-				65F7A0542072254E0079200E /* ViewOne.m */,
-				65F7A05C207225940079200E /* viewTwo.h */,
-				65F7A05D207225940079200E /* viewTwo.m */,
 				65F7A04B20721EC70079200E /* SJHeader.h */,
 				13EAA2E4C89ACA086E3FC0808361D8A2 /* Support Files */,
 			);
@@ -605,6 +606,33 @@
 				65F7A04D20721EE90079200E /* SJBaseView.m */,
 			);
 			path = baseVC;
+			sourceTree = "<group>";
+		};
+		65F7A06C20732A7F0079200E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65F7A06D20732A7F0079200E /* .gitkeep */,
+				65F7A06E20732A7F0079200E /* ReplaceMe.m */,
+				65F7A06F20732A7F0079200E /* ViewOne.h */,
+				65F7A07020732A7F0079200E /* ViewOne.m */,
+			);
+			name = Classes;
+			path = SJCompmentThreeLib/Classes;
+			sourceTree = "<group>";
+		};
+		65F7A07120732AAA0079200E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				65F7A07220732AAA0079200E /* .gitkeep */,
+				65F7A07320732AAA0079200E /* add_friend@2x.png */,
+				65F7A07420732AAA0079200E /* add_friend@3x.png */,
+				65F7A07520732AAA0079200E /* viewThree.h */,
+				65F7A07620732AAA0079200E /* viewThree.m */,
+				65F7A07720732AAA0079200E /* viewTwo.h */,
+				65F7A07820732AAA0079200E /* viewTwo.m */,
+			);
+			name = Assets;
+			path = SJCompmentThreeLib/Assets;
 			sourceTree = "<group>";
 		};
 		778606D5FF2F934B11EBF31C35276646 /* FBSnapshotTestCase */ = {
@@ -902,8 +930,6 @@
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
-				65F7A05E207225940079200E /* viewTwo.h in Headers */,
-				65F7A057207225580079200E /* ViewOne.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
 				1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */,
 				E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */,
@@ -1200,12 +1226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4463D68D13C127762B1ACB8249B64C /* EXPBlockDefinedMatcher.m in Sources */,
-				65F7A05F207225940079200E /* viewTwo.m in Sources */,
 				01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */,
 				D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */,
 				99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */,
 				1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */,
-				65F7A0552072254E0079200E /* ViewOne.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
 				150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */,

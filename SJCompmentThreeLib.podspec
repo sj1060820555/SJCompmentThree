@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJCompmentThreeLib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.8'
   s.summary          = 'SJCompmentThreeLib.'
 
 # This description is used to generate tags and improve search results.
@@ -25,16 +25,16 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sj1060820555@163.com' => 'sj1060820555@163.com' }
-  s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "0.1.2" }
+  s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "0.1.8" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SJCompmentThreeLib/Classes/**/*'
+  s.source_files = 'SJCompmentThreeLib/Classes/*'
   
-  # s.resource_bundles = {
-  #   'SJCompmentThreeLib' => ['SJCompmentThreeLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'SJCompmentThreeLib' => ['SJCompmentThreeLib/Assets/*.png']
+ }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
