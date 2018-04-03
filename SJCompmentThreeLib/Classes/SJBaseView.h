@@ -9,4 +9,5 @@
 
 @interface SJBaseView : UIView
 -(void)changeColor;
+-(void)changeColor2;
 @end

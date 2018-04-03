@@ -9,4 +9,5 @@
 
 @interface ViewOne : UIView
 -(void)changeColor;
+-(void)changeColor2;
 @end

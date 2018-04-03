@@ -14,7 +14,7 @@
 -(instancetype)init{
     self = [super init];
     if (self) {
-        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(changeClolr)];
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(changeColor2)];
         [self addGestureRecognizer:tap];
     }
     return self;
@@ -22,6 +22,10 @@
 
 
 -(void)changeColor{
+    self.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
+}
+
+-(void)changeColor2{
     self.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
 }
 
