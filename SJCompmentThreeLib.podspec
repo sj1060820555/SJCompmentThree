@@ -14,7 +14,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJCompmentThreeLib'
-  s.version          = '0.1.21'
+  s.version          = '0.1.22'
   s.summary          = 'SJCompmentThreeLib.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sj1060820555@163.com' => 'sj1060820555@163.com' }
-  s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "0.1.21" }
+  s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "0.1.22" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -48,6 +48,8 @@ TODO: Add long description of the pod here.
  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
     s.dependency  'Masonry' , '~> 1.1.0'
     s.dependency  'FMDB', ' ~> 2.7.2'
+    s.dependency  'SDWebImage', ' '~>3.7.2'
+
 #s.dependency  'MJRefresh','~>3.1.15.1'
 
   # s.dependency 'AFNetworking' , '~> 2.3'
