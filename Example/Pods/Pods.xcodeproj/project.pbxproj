@@ -93,6 +93,8 @@
 		65F7A0A0207480B70079200E /* ViewOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A092207480B70079200E /* ViewOne.m */; };
 		65F7A0A3207480ED0079200E /* ShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F7A0A1207480ED0079200E /* ShareManager.h */; };
 		65F7A0A4207480ED0079200E /* ShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A0A2207480ED0079200E /* ShareManager.m */; };
+		65F7A0A92074C38B0079200E /* ShareBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 65F7A0A72074C38B0079200E /* ShareBaseView.h */; };
+		65F7A0AA2074C38B0079200E /* ShareBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F7A0A82074C38B0079200E /* ShareBaseView.m */; };
 		6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 4407AB2E6E09E5B2391AA29A7C0DE26E /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C23BBF56ED4DCC10CA1765A6736D1F8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C3DE712E85C8F6CF34A9A7F2EDD381 /* MASLayoutConstraint.m */; };
 		6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB9E7F306A2672B60B74BD3979A94CD /* ExpectaObject+FBSnapshotTest.m */; };
@@ -433,6 +435,8 @@
 		65F7A0A1207480ED0079200E /* ShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
 		65F7A0A2207480ED0079200E /* ShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
 		65F7A0A52074BC8F0079200E /* shareHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shareHeader.h; sourceTree = "<group>"; };
+		65F7A0A72074C38B0079200E /* ShareBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareBaseView.h; sourceTree = "<group>"; };
+		65F7A0A82074C38B0079200E /* ShareBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareBaseView.m; sourceTree = "<group>"; };
 		6764D88160C1D01263353497997DE98F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		678DAAE5C983D37A6624D5D1FE88F9FE /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		6BB9E7F306A2672B60B74BD3979A94CD /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
@@ -782,6 +786,7 @@
 		65F7A08A207480B70079200E /* ShareManager */ = {
 			isa = PBXGroup;
 			children = (
+				65F7A0A62074C3580079200E /* base */,
 				65F7A0A1207480ED0079200E /* ShareManager.h */,
 				65F7A0A2207480ED0079200E /* ShareManager.m */,
 				65F7A0A52074BC8F0079200E /* shareHeader.h */,
@@ -803,6 +808,15 @@
 			);
 			name = Classes;
 			path = SJCompmentThreeLib/Classes;
+			sourceTree = "<group>";
+		};
+		65F7A0A62074C3580079200E /* base */ = {
+			isa = PBXGroup;
+			children = (
+				65F7A0A72074C38B0079200E /* ShareBaseView.h */,
+				65F7A0A82074C38B0079200E /* ShareBaseView.m */,
+			);
+			path = base;
 			sourceTree = "<group>";
 		};
 		730F12A1FF38618B7D0999AB1CD5EC44 /* Support Files */ = {
@@ -1256,6 +1270,7 @@
 			files = (
 				214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */,
 				5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */,
+				65F7A0A92074C38B0079200E /* ShareBaseView.h in Headers */,
 				39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */,
 				0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */,
 				A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */,
@@ -1698,6 +1713,7 @@
 				1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
+				65F7A0AA2074C38B0079200E /* ShareBaseView.m in Sources */,
 				150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */,
 				9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */,
 				8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */,

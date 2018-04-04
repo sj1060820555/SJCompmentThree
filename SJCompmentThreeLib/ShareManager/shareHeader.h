@@ -9,5 +9,5 @@
 #define shareHeader_h
 
 #import "ShareManager.h"
-
+#import "ShareBaseView.h"
 #endif /* shareHeader_h */
