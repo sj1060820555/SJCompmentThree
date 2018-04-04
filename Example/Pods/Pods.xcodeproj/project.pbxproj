@@ -432,6 +432,7 @@
 		65F7A092207480B70079200E /* ViewOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewOne.m; sourceTree = "<group>"; };
 		65F7A0A1207480ED0079200E /* ShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareManager.h; sourceTree = "<group>"; };
 		65F7A0A2207480ED0079200E /* ShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareManager.m; sourceTree = "<group>"; };
+		65F7A0A52074BC8F0079200E /* shareHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shareHeader.h; sourceTree = "<group>"; };
 		6764D88160C1D01263353497997DE98F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		678DAAE5C983D37A6624D5D1FE88F9FE /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
 		6BB9E7F306A2672B60B74BD3979A94CD /* ExpectaObject+FBSnapshotTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExpectaObject+FBSnapshotTest.m"; sourceTree = "<group>"; };
@@ -783,6 +784,7 @@
 			children = (
 				65F7A0A1207480ED0079200E /* ShareManager.h */,
 				65F7A0A2207480ED0079200E /* ShareManager.m */,
+				65F7A0A52074BC8F0079200E /* shareHeader.h */,
 			);
 			name = ShareManager;
 			path = SJCompmentThreeLib/ShareManager;
