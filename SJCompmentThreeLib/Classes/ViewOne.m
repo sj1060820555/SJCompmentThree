@@ -6,7 +6,7 @@
 //
 
 #import "ViewOne.h"
-#import "SJCompmentThreeHeader.h"
+//#import "SJCompmentThreeHeader.h"
 @implementation ViewOne
 
 

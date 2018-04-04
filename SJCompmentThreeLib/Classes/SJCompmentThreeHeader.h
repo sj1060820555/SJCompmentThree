@@ -8,9 +8,6 @@
 #ifndef SJCompmentThreeHeader_h
 #define SJCompmentThreeHeader_h
 #import <Masonry/Masonry.h>
-
 #import "ViewOne.h"
 #import "SJBaseView.h"
-
-
 #endif /* SJCompmentThreeHeader_h */
