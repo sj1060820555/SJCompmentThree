@@ -10,5 +10,5 @@
 #import <Masonry/Masonry.h>
 #import "ViewOne.h"
 #import "SJBaseView.h"
-#import "ShareManager.h"
+//#import "ShareManager.h"
 #endif /* SJCompmentThreeHeader_h */
