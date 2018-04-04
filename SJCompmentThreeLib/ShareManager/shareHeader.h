@@ -12,4 +12,6 @@
 #import "ShareBaseView.h"
 #import "SShareBserView.h"
 #import "ssshareBaserView.h"
+#import "ssssShareBaseView.h"
+#import "sssssShareBaseView.h"
 #endif /* shareHeader_h */
