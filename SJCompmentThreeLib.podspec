@@ -61,10 +61,10 @@ s.dependency  'SDWebImage' , '~> 4.2.3'
 
 
 # share模块
-s.subspec 'ShareManager' do |subspec|
+#s.subspec 'ShareManager' do |subspec|
 # 源代码
-subspec.source_files = 'SJCompmentThreeLib/ShareManager/*'
-end
+#subspec.source_files = 'SJCompmentThreeLib/ShareManager/*'
+#end
 
 
 end
