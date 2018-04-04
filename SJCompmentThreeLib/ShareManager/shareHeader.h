@@ -14,4 +14,5 @@
 #import "ssshareBaserView.h"
 #import "ssssShareBaseView.h"
 #import "sssssShareBaseView.h"
+#import "compmentOnevC.h"
 #endif /* shareHeader_h */
