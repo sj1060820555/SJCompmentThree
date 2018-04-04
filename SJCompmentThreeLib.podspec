@@ -14,7 +14,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SJCompmentThreeLib'
-s.version          = '1.1.6'
+s.version          = '1.1.7'
 s.summary          = 'SJCompmentThreeLib.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ s.homepage         = 'https://gitee.com/wsj31421/SJCompmentThreeL.git'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'sj1060820555@163.com' => 'sj1060820555@163.com' }
-s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "1.1.6" }
+s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "1.1.7" }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 #添加依赖第三方的framework
 #subspec.vendored_frameworks
@@ -72,10 +72,10 @@ s.subspec 'BaseCore' do |base|
 end
 
 
-s.subspec 'Share' do |share|
-     share.source_files = 'SJCompmentThreeLib/ShareManager/**/*'
-     share.public_header_files = 'SJCompmentThreeLib/ShareManager/*.h'
-end
+#s.subspec 'Share' do |share|
+#   share.source_files = 'SJCompmentThreeLib/ShareManager/**/*'
+#  share.public_header_files = 'SJCompmentThreeLib/ShareManager/*.h'
+#end
 
 
 
