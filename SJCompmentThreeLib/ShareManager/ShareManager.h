@@ -8,5 +8,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ShareManager : NSObject
-
+@property(nonatomic,strong)UIView *view;
 @end
