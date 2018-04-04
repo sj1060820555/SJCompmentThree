@@ -61,12 +61,12 @@ s.ios.deployment_target = '8.0'
 s.subspec 'BaseCore' do |base|
 
 #base.prefix_header_file = 'SJCompmentThreeLib/Classes/SJCompmentThreeHeader.h'
-     base.source_files = 'SJCompmentThreeLib/ShareManager/**/*'
-     base.public_header_files = 'SJCompmentThreeLib/ShareManager/*.h'
+     base.source_files = 'SJCompmentThreeLib/Classes/**/*'
+     base.public_header_files = 'SJCompmentThreeLib/Classes/**/*.h'
      base.dependency  'Masonry' , '~> 1.1.0'
      base.dependency  'FMDB', ' ~> 2.7.2'
      base.dependency  'SDWebImage' , '~> 4.2.3'
-     s.resource_bundles = {
+     base.resource_bundles = {
      'SJCompmentThreeLib' => ['SJCompmentThreeLib/Assets/*.png']
      }
 end
