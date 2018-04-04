@@ -14,7 +14,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SJCompmentThreeLib'
-s.version          = '1.1.5'
+s.version          = '1.1.6'
 s.summary          = 'SJCompmentThreeLib.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ s.homepage         = 'https://gitee.com/wsj31421/SJCompmentThreeL.git'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'sj1060820555@163.com' => 'sj1060820555@163.com' }
-s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "1.1.5" }
+s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.git', :tag => "1.1.6" }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 #添加依赖第三方的framework
 #subspec.vendored_frameworks
@@ -48,11 +48,6 @@ s.ios.deployment_target = '8.0'
 # s.frameworks = 'UIKit', 'MapKit'
 #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
 
-#s.dependency  'Masonry' , '~> 1.1.0'
-#s.dependency  'FMDB', ' ~> 2.7.2'
-#s.dependency  'SDWebImage' , '~> 4.2.3'
-
-
 # s.dependency 'AFNetworking' , '~> 3.1.0'
 
 #s.dependency  'SDWebImage' , '~> 4.2.3'
@@ -60,11 +55,26 @@ s.ios.deployment_target = '8.0'
 
 # s.dependency 'AFNetworking' , '~> 2.3'
 
- s.default_subspec = 'Share'
+ s.default_subspec = 'BaseCore'
+
+
+s.subspec 'BaseCore' do |base|
+
+     base.prefix_header_file = 'SJCompmentThreeLib/Classes/SJCompmentThreeHeader.h'
+     base.source_files = 'SJCompmentThreeLib/ShareManager/**/*'
+     base.public_header_files = 'SJCompmentThreeLib/ShareManager/*.h'
+     base.dependency  'Masonry' , '~> 1.1.0'
+     base.dependency  'FMDB', ' ~> 2.7.2'
+     base.dependency  'SDWebImage' , '~> 4.2.3'
+     s.resource_bundles = {
+     'SJCompmentThreeLib' => ['SJCompmentThreeLib/Assets/*.png']
+     }
+end
+
 
 s.subspec 'Share' do |share|
-share.source_files = 'SJCompmentThreeLib/ShareManager/**/*'
-  share.public_header_files = 'SJCompmentThreeLib/ShareManager/*.h'
+     share.source_files = 'SJCompmentThreeLib/ShareManager/**/*'
+     share.public_header_files = 'SJCompmentThreeLib/ShareManager/*.h'
 end
 
 
