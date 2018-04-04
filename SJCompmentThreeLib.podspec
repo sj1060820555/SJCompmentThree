@@ -37,20 +37,22 @@ s.source           = { :git => 'https://github.com/sj1060820555/SJCompmentThree.
 #subspec.vendored_frameworks
 
 s.ios.deployment_target = '8.0'
-s.source_files = 'SJCompmentThreeLib/Classes/**/*'
-s.prefix_header_file = 'SJCompmentThreeLib/Classes/SJCompmentThreeHeader.h'
-s.resource_bundles = {
-'SJCompmentThreeLib' => ['SJCompmentThreeLib/Assets/*.png']
-}
+#s.source_files = 'SJCompmentThreeLib/Classes/**/*'
+#s.prefix_header_file = 'SJCompmentThreeLib/Classes/SJCompmentThreeHeader.h'
+#s.resource_bundles = {
+#'SJCompmentThreeLib' => ['SJCompmentThreeLib/Assets/*.png']
+#}
 
-s.public_header_files = 'SJCompmentThreeLib/Classes/**/*.h'
+#s.public_header_files = 'SJCompmentThreeLib/Classes/**/*.h'
 #所需的framework，多个用逗号隔开
 # s.frameworks = 'UIKit', 'MapKit'
 #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
 
-s.dependency  'Masonry' , '~> 1.1.0'
-s.dependency  'FMDB', ' ~> 2.7.2'
-s.dependency  'SDWebImage' , '~> 4.2.3'
+#s.dependency  'Masonry' , '~> 1.1.0'
+#s.dependency  'FMDB', ' ~> 2.7.2'
+#s.dependency  'SDWebImage' , '~> 4.2.3'
+
+
 # s.dependency 'AFNetworking' , '~> 3.1.0'
 
 #s.dependency  'SDWebImage' , '~> 4.2.3'
@@ -58,7 +60,7 @@ s.dependency  'SDWebImage' , '~> 4.2.3'
 
 # s.dependency 'AFNetworking' , '~> 2.3'
 
-
+ s.default_subspec = 'Share'
 
 s.subspec 'Share' do |share|
 share.source_files = 'SJCompmentThreeLib/ShareManager/**/*'
