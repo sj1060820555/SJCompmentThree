@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SJCompmentThreeHeader.h"
+
 
 @interface ShareManager : NSObject
 @property(nonatomic,strong)UIView *view;
