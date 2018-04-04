@@ -14,7 +14,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SJCompmentThreeLib'
-s.version          = '0.1.37'
+s.version          = '0.1.38'
 s.summary          = 'SJCompmentThreeLib.'
 
 # This description is used to generate tags and improve search results.
